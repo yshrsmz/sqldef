@@ -1,6 +1,6 @@
 module github.com/sqldef/sqldef
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/go-sql-driver/mysql v1.7.1
@@ -10,7 +10,7 @@ require (
 	github.com/microsoft/go-mssqldb v1.6.0
 	github.com/pganalyze/pg_query_go/v4 v4.2.3
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/term v0.15.0
+	golang.org/x/term v0.43.0
 	gopkg.in/yaml.v2 v2.4.0
 	modernc.org/sqlite v1.28.0
 )
@@ -23,11 +23,11 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
 	modernc.org/ccgo/v3 v3.16.13 // indirect
@@ -42,8 +42,9 @@ require (
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/golang/protobuf v1.4.2 // indirect
+	github.com/golang/protobuf v1.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	google.golang.org/protobuf v1.23.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
